@@ -1,3 +1,3 @@
-UPDATE customers SET email = 'ppicasso@gmail.com' WHERE id=1;
-UPDATE customers SET email = 'lincoln@us.gov' WHERE id=2;
-UPDATE customers SET email = 'hello@napoleon.me' WHERE id=3;
+UPDATE customers SET email = 'ppicasso@gmail.com' WHERE name='Pablo Picasso';
+UPDATE customers SET email = 'lincoln@us.gov' WHERE name='Abraham Lincoln';
+UPDATE customers SET email = 'hello@napoleon.me' WHERE name='Napoléon Bonaparte';
